@@ -1,0 +1,27 @@
+{
+  "name": "library-managment-system",
+  "version": "1.0.0",
+  "description": "use the command -\r     # 1 git config --global user.name \"anup09\"\t\r     # 2 git config --global user.email \"anup.vajareenkar@gmail.com\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anup09/Library-Managment-System.git"
+  },
+  "author": "Anup Vajareenkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anup09/Library-Managment-System/issues"
+  },
+  "homepage": "https://github.com/anup09/Library-Managment-System#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
